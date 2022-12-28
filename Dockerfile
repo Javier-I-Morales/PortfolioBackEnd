@@ -6,6 +6,6 @@ FROM amazoncorretto:16-alpine-jdk
 
 MAINTAINER javiermorales
 
-COPY target/demo-0.0.1-argentinaprograma.jar demo-0.0.1-argentinaprograma.jar
+COPY target/PortfolioBackEnd-0.0.1-SNAPSHOT.jar PortfolioBackEnd-0.0.1-SNAPSHOT.jar
 
-ENTRYPOINT ["java","-jar","/demo-0.0.1-argentinaprograma.jar"]
+ENTRYPOINT ["java","-jar","/PortfolioBackEnd-0.0.1-SNAPSHOT.jar"]

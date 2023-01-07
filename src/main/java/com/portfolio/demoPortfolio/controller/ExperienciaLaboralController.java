@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
 
 //@CrossOrigin(origins = "http://localhost:4200")
-@CrossOrigin(origins = "https://portfoliok-a7a1b.firebaseapp.com/portfolio")
+@CrossOrigin(origins = "https://portfoliok-a7a1b.firebaseapp.com")
 @RestController
 public class ExperienciaLaboralController {
     

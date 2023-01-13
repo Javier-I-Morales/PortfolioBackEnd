@@ -24,15 +24,17 @@ public class Proyecto {
     private Date fecharealizacion;
     private String link;
     private String descripcion;
+    private String linkdos;
     
     public Proyecto(){}
     
-    public Proyecto(Long id, String nombre, Date fecharealizacion, String link, String descripcion){
+    public Proyecto(Long id, String nombre, Date fecharealizacion, String link, String descripcion, String linkdos){
         this.id = id;
         this.nombre=nombre;
         this.fecharealizacion = fecharealizacion;
         this.link = link;
         this.descripcion = descripcion;
+        this.linkdos = linkdos;
     }
     
     
